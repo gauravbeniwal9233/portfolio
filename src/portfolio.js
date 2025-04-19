@@ -26,7 +26,7 @@ const greeting = {
     "Experienced full-stack developer with 2+ years of experience in designing and optimizing high-quality RESTful APIs using Java and Spring Boot. I'm also AWS certified. 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1uTwmZciYQn-xWSMq3wwV-gODZ0IMU0xn/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1w_ApdPBS-0QqNOnesHtmADmPnR2bDPEI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
