@@ -272,6 +272,27 @@ const achievementSection = {
         // }
       ]
     },
+    {
+      title: "AWS Certified AI Practitioner",
+      subtitle:
+        "Earners of this badge understand AI, ML, and generative AI concepts, methods, and strategies in general and on AWS.",
+      image: require("./assets/images/aws-certified-ai-practitioner.png"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/e2a35104-075a-4127-812e-f024af9a6a13"
+        },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
+      ]
+    },
     // {
     //   title: "Google Assistant Action",
     //   subtitle:
