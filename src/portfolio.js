@@ -23,7 +23,7 @@ const greeting = {
   username: "Gaurav Beniwal",
   title: "Hi all, I'm Gaurav",
   subTitle: emoji(
-    "Experienced full-stack developer with 2+ years of experience in designing and optimizing high-quality RESTful APIs using Java and Spring Boot. I'm also AWS certified. 🚀"
+    "Software Engineer with 2+ years’ experience building secure, scalable systems using Java, Spring Boot, AWS, and Terraform. Strong background in backend development, IaC, cloud automation, and end-to-end application delivery. 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1w_ApdPBS-0QqNOnesHtmADmPnR2bDPEI/view?usp=sharing", // Set to empty to hide the button
@@ -174,13 +174,13 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "AWS Administrator",
+      role: "Site Reliability Engineer",
       company: "Wellinks",
       companylogo: require("./assets/images/wellinksLogo.png"),
       date: "Feb 2025 – Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Migrated API Gateway & Lambda to SAM templates, enhancing infrastructure reliability and ensuring HIPAA compliance for Wellinks’ chronic pulmonary care services, minimizing risk of data loss.",
+        "Architected Wellinks’ HIPAA-compliant cloud infrastructure with modular Terraform, improving reliability and reducing manual provisioning errors.",
         "Automated CI/CD pipeline using AWS CodeBuild, integrating Microsoft Teams for real-time build notifications, reducing troubleshooting time and improving team efficiency.",
         "Collaborated across teams to align cloud infrastructure with healthcare needs, enhancing communication and service delivery for chronic disease management.",
       ]
@@ -193,8 +193,9 @@ const workExperiences = {
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
         "Developed an EHR system for streamlined access to patient demographics, efficient provider communication, and optimized data management.",
-        "Spearheaded the development of RESTful APIs, adhering to industry best practices, and enhancing API performance, reduced response time by 30% and minimized bugs by 50% through rigorous optimization.",
-        "Resolved critical bugs within 4 hours, unblocking users and demonstrating effective under-pressure performance.",
+        "Designed scalable microservices and led development of RESTful APIs using Spring Boot, and MVC architecture.",
+        "Triaged and fixed P1 bugs by writing test cases using JUnit and Mockito, improving system reliability.",
+        "Optimized report generation and reduced query load using JPA, Hibernate, and raw SQL.",
       ]
     },
     {
