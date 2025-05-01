@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/gauravbeniwal9233",
   linkedin: "https://www.linkedin.com/in/gaurav-beniwal/",
-  gmail: "gaurav.beniwal9233@gmail.com",
+  gmail: "i.gauravbeniwal@gmail.com",
   gitlab: "",
   facebook: "",
   medium: "",
@@ -395,7 +395,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 (909) 521-5782",
-  email_address: "gaurav.beniwal9233@gmail.com"
+  email_address: "i.gauravbeniwal@gmail.com"
 };
 
 // Twitter Section
