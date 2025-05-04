@@ -23,7 +23,7 @@ const greeting = {
   username: "Gaurav Beniwal",
   title: "Hi all, I'm Gaurav",
   subTitle: emoji(
-    "Software Engineer with 2+ years’ experience building secure, scalable systems using Java, Spring Boot, AWS, and Terraform. Strong background in backend development, IaC, cloud automation, and end-to-end application delivery. 🚀"
+    "Software Engineer with 3+ years’ experience building secure, scalable systems using Java, Spring Boot, AWS, and Terraform. Strong background in backend APIs, cloud automation, infrastructure and end-to-end application development. 🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1w_ApdPBS-0QqNOnesHtmADmPnR2bDPEI/view?usp=sharing", // Set to empty to hide the button
