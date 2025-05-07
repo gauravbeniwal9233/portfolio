@@ -121,10 +121,6 @@
     justify-content: center;
     align-items: center;
   }
-  .profile-container::before {
-    width: 260px !important;
-    height: 260px !important;
-  }
   .profile-photo {
     width: 240px !important;
     height: 240px !important;
@@ -134,10 +130,6 @@
 }
 
 @media (max-width: 480px) {
-  .profile-container::before {
-    width: 160px !important;
-    height: 160px !important;
-  }
   .profile-photo {
     width: 140px !important;
     height: 140px !important;
@@ -149,10 +141,6 @@
 @media (max-width: 320px) {
   .main {
     width: auto;
-  }
-  .profile-container::before {
-    width: 130px !important;
-    height: 130px !important;
   }
   .profile-photo {
     width: 110px !important;
@@ -193,6 +181,7 @@
   width: 100%;
   height: 100%;
   position: relative;
+  background: transparent;
 }
 
 // @keyframes gradient-rotate {
@@ -215,17 +204,17 @@
   height: 500px;
   border-radius: 50%;
   object-fit: cover;
-  // animation: rotate 5s linear infinite;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-  border: 8px solid rgba(255, 255, 255, 0.2);
+  animation: none;
+  // box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  // border: 8px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
-  filter: brightness(1.05) contrast(1.05);
+  // filter: brightness(1.05) contrast(1.05);
 }
 
 .profile-photo:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
-  filter: brightness(1.1) contrast(1.1) saturate(1.1);
+  // box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+  // filter: brightness(1.1) contrast(1.1) saturate(1.1);
 }
 
 // @keyframes rotate {
