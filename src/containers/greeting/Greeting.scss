@@ -184,20 +184,6 @@
   background: transparent;
 }
 
-// @keyframes gradient-rotate {
-//   0% {
-//     background-position: 0% 50%;
-//     transform: rotate(0deg) scale(1);
-//   }
-//   50% {
-//     background-position: 100% 50%;
-//     transform: rotate(180deg) scale(1.1);
-//   }
-//   100% {
-//     background-position: 0% 50%;
-//     transform: rotate(360deg) scale(1);
-//   }
-// }
 
 .profile-photo {
   width: 500px;
@@ -205,23 +191,12 @@
   border-radius: 50%;
   object-fit: cover;
   animation: none;
-  // box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
-  // border: 8px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  border: 8px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
-  // filter: brightness(1.05) contrast(1.05);
 }
 
 .profile-photo:hover {
   transform: scale(1.05);
-  // box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
-  // filter: brightness(1.1) contrast(1.1) saturate(1.1);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
 }
-
-// @keyframes rotate {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }

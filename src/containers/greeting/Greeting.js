@@ -60,7 +60,7 @@ export default function Greeting() {
             {illustration.animated ? (
               <div className="profile-container">
                 <img
-                  src={require("../../assets/images/profile.jpg")}
+                  src={require("../../assets/images/profile.png")}
                   alt="Profile"
                   className="profile-photo"
                 />
