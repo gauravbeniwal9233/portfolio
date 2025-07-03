@@ -174,10 +174,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Wells Fargo",
+      companylogo: require("./assets/images/wellsFargo.png"),
+      date: "Jun 2025 – Present",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Develop and maintain services e2e using Java and Spring Boot to support high-volume mortgage and loan workflows.",
+        "Build asynchronous event pipelines using Kafka and MQ to decouple services and increase system scalability and fault tolerance.",
+        "Collaborated across teams to align cloud infrastructure with healthcare needs, enhancing communication and service delivery for chronic disease management.",
+      ]
+    },
+    {
       role: "Site Reliability Engineer",
       company: "Wellinks",
       companylogo: require("./assets/images/wellinksLogo.png"),
-      date: "Feb 2025 – Present",
+      date: "Feb 2025 – Jun 2025",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Architected Wellinks’ HIPAA-compliant cloud infrastructure with modular Terraform, improving reliability and reducing manual provisioning errors.",
